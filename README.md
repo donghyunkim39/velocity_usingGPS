@@ -1,6 +1,6 @@
 # velocity_usingGPS
 
-> For user who: GPS 위도(latitude), 경도(longitude)와 GPS topic이 publish되는 시간으로 속력을 구하고싶은 user, 자율주행자동차를 구하기 위해 현재속도를 구해야하는데 현재속도를 하나의 topic으로 publish되길 원하는 user
+> For user who: GPS 위도(latitude), 경도(longitude)와 GPS topic이 publish되는 시간으로 속력을 구하고싶은 user, 자율주행자동차를 구현하기 위해 현재속도를 구해야하는데 현재속도를 하나의 topic으로 publish되길 원하는 user
 
 >원리: haversine라이브러리를 이용해 두지점을 이동한 거리를 구하고, 두지점을 지나는데 걸리는 시간을 구하여 속력 = 변위(거리) / 시간 을 통해 속력을 구한다.
 
