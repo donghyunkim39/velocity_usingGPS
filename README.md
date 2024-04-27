@@ -9,12 +9,14 @@
 1) 위도, 경도를 실시간으로 출력해주는 topic (필자의 경우 /gps/fix 토픽임)
 ![Screenshot from 2024-04-28 04-20-26](https://github.com/donghyunkim39/velocity_usingGPS/assets/163104650/5aed531d-fdfc-479f-bd85-0473e8756716)
 
-![Screenshot from 2024-04-28 04-20-54](https://github.com/donghyunkim39/velocity_usingGPS/assets/163104650/b20ad6a9-6949-4708-ba34-729eb8e0f100)
-
 ubuntu 명령창에 아래코드를 입력하면 위 사진과 같은 topic들을 볼수있다.
 ```bash
 rostopic list
 ```
+
+![Screenshot from 2024-04-28 04-20-54](https://github.com/donghyunkim39/velocity_usingGPS/assets/163104650/b20ad6a9-6949-4708-ba34-729eb8e0f100)
+
+
 
 >우리가 사용할 정보는 topic 정보중에 시간(secs, nsecs), 위도(latitude), 경도(longitude) 이다.
 > ex) 첫지점의 (위도,경도,시간)이 Location1(35.240451156243284, 126,8411777433688, 1713758627.594646408초)
