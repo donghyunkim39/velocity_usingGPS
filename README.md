@@ -55,6 +55,7 @@ rostopic list
 
 ![스크린샷 2024-04-28 050200](https://github.com/donghyunkim39/velocity_usingGPS/assets/163104650/1ed1d25e-4df1-4bc9-9ed2-0360803225b1)
 > 6) calculate 메소드이다. 위에서 구한 시간과 거리값을 이용해 속력 = 거리/시간을 실질적으로 계산하는 메소드이다.
-> 동시에 계산한 m/s 단위의 속력을 /now_velocity라는 topic으로 출력한다. 이때 메시지 유형은 Float64 이다.
+>    
+> 계산한 m/s 단위의 속력을 /now_velocity라는 topic으로 출력한다. 이때 메시지 유형은 Float64 이다.
 
 
