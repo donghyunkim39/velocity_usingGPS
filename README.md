@@ -16,6 +16,10 @@ rostopic list
 
 ![Screenshot from 2024-04-28 04-20-54](https://github.com/donghyunkim39/velocity_usingGPS/assets/163104650/b20ad6a9-6949-4708-ba34-729eb8e0f100)
 
+ubuntu 명령창에 아래코드를 입력하면 위 사진과 같은 실시간 topic 정보를 볼수있다.
+```bash
+rostopic echo /gps/fix
+```
 
 
 >우리가 사용할 정보는 topic 정보중에 시간(secs, nsecs), 위도(latitude), 경도(longitude) 이다.
